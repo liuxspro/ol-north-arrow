@@ -1,0 +1,36 @@
+{
+  "name": "@liuxspro/ol-north-arrow",
+  "version": "0.1.1",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "default": "./dist/ol-north-arrow.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuxspro/ol-north-arrow"
+  },
+  "author": "liuxspro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liuxspro/ol-north-arrow/issues"
+  },
+  "homepage": "https://github.com/liuxspro/ol-north-arrow#README",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "build:package": "vite build -c vite.package.config.js",
+    "publish": "pnpm publish --access public"
+  },
+  "peerDependencies": {
+    "ol": "^10"
+  },
+  "devDependencies": {
+    "vite": "^5.3.4"
+  }
+}
